@@ -1,9 +1,3 @@
-/*
-	Template Name 	: Adzilen - Creative Portfolio Template
-	Author 			: Awaiken Theme
-	Author Url 		: https://awaikenthemes.com
-*/
-
 /************************************/
 /***** 	    General css		     ****/
 /************************************/
@@ -11,7 +5,7 @@
 body{
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
-	background: #111;
+	background: #111111c5;
 	color: #707070;
 }
 
@@ -168,14 +162,14 @@ header.header{
 
 header .navbar{
 	padding: 0;
-	background: rgba(0,0,0,0.4);
+	/* background: rgba(0, 0, 0, 0.4); */
 	z-index: 40;
 	transition: all 0.3s;
 }
 
 .navbar-brand h1{
-	font-family: 'Berkshire Swash', cursive;
-	font-weight: normal;
+	font-family: 'Roboto', cursive;
+	font-weight: 700;
 	transition: all 0.3s;
 	color: #fff;
 	margin: 0;
@@ -227,7 +221,8 @@ header .navbar.sticky-header{
 	top: 0;
 	left: 0;
 	right: 0;
-	background: rgba(0,0,0,0.9);
+	/* background: rgba(0,0,0,0.9); */
+	background-color: #16bdef;
 }
 
 .sticky-header .navbar-nav .nav-item{
@@ -288,7 +283,7 @@ header .navbar.sticky-header{
     top: 0px;
     left: 0;
     width: 100%;
-    background: url(../images/header2_bg.png) no-repeat right;
+    /* background: url(../images/header2_bg.png) no-repeat right; */
     background-size: cover;
     padding: 220px 0 120px;
 }
@@ -459,7 +454,8 @@ header .navbar.sticky-header{
 
 .services{
 	padding: 100px 0 70px;
-	background: #151515;
+	background: #707070;
+	/* background: #151515; */
 	position: relative;
 }
 
@@ -661,7 +657,7 @@ header .navbar.sticky-header{
 /***************************************/
 
 .portfolio{
-	background: #151515;
+	background: #707070;
 	padding: 100px 0;
 }
 
@@ -817,78 +813,6 @@ header .navbar.sticky-header{
 	color: #ff5d56;
 }
 
-/***************************************/
-/*****     Our Team Section css     ****/
-/***************************************/
-
-.our-team{
-	padding: 100px 0;
-}
-
-.team-single{
-	position: relative;
-	margin-bottom: 35px;
-}
-
-.team-single figure img{
-	filter: grayscale(100%);
-}
-
-.team-info{
-	position: absolute;
-	background: #222;
-	border: 1px solid #333;
-	left: 30px;
-	right: 30px;
-	bottom: -35px;
-	padding: 14px 20px;
-	text-align: center;
-}
-
-.team-info:before{
-	content: '';
-    display: block;
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    right: -1px;
-    bottom: -1px;
-    border-top: 1px solid #ff5d56;
-    border-bottom: 1px solid #ff5d56;
-    transform: scale(0,1);
-    transition: all 0.6s;
-}
-
-.team-info:after{
-	content: '';
-    display: block;
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    right: -1px;
-    bottom: -1px;
-    border-left: 1px solid #ff5d56;
-    border-right: 1px solid #ff5d56;
-    transform: scale(1,0);
-    transition: all 0.6s;
-}
-
-.team-info h3{
-	color: #fff;
-	font-size: 18px;
-	font-weight: 400;
-	margin-bottom: 2px;
-}
-
-.team-info p{
-	font-size: 14px;
-	margin: 0;
-}
-
-.team-single:hover .team-info:before,
-.team-single:hover .team-info:after{
-	transform: scale(1);
-}
 
 /***************************************/
 /*****      Pricing Section css     ****/
@@ -896,7 +820,7 @@ header .navbar.sticky-header{
 
 .pricing{
 	padding: 100px 0;
-	background: #151515;
+	
 }
 
 .pricing-single{
@@ -1021,101 +945,6 @@ header .navbar.sticky-header{
     padding: 6px;
     font-size: 14px;
     transform: rotate(-45deg);
-}
-
-/*******************************************/
-/*****      Testimonial Section css     ****/
-/*******************************************/
-
-.testimonials{
-	padding: 100px 0;
-}
-
-.testimonial-single{
-	text-align: center;
-}
-
-.testimonial-header{
-	margin-bottom: 30px;
-	position: relative;
-	padding-bottom: 30px;
-}
-
-.testimonial-header:after{
-	content: '';
-	display: block;
-	width: 60px;
-	margin-left: -30px;
-	height: 3px;
-	background: #333;
-	position: absolute;
-	left: 50%;
-	bottom: 0;
-}
-
-.testimonial-header figure{
-	display: inline-block;
-	margin-bottom: 20px;
-	position: relative;
-}
-
-.testimonial-header figure:before{
-	content: '\f10d';
-	font-family: FontAwesome;
-	display: block;
-	width: 32px;
-	height: 32px;
-	background: #ff5d56;
-	color: #fff;
-	line-height: 32px;
-	font-size: 14px;
-	border-radius: 50%;
-	position: absolute;
-	right: 0;
-	top: 10px;
-}
-
-.testimonial-header figure img{
-	max-width: 120px;
-	border-radius: 50%;
-	border: 6px solid #222;
-}
-
-.testimonial-header h3{
-	font-family: 'Berkshire Swash', cursive;
-	font-size: 24px;
-	color: #fff;
-	font-weight: normal;
-	margin-bottom: 10px;
-}
-
-.testimonial-header h4{
-	font-size: 18px;
-	font-weight: 400;
-	color: #ff5d56;
-}
-
-.testimonial-single p{
-	font-size: 20px;
-	line-height: 1.6em;
-}
-
-.testimonial-pagination{
-	text-align: center;
-	margin-top: 20px;
-}
-
-.testimonial-pagination .swiper-pagination-bullet{
-	opacity: 1;
-	background: #333;
-	width: 20px;
-	height: 6px;
-	border-radius: 0;
-	transition: all 0.4s;
-}
-
-.testimonial-pagination .swiper-pagination-bullet-active{
-	background: #ff5d56;
 }
 
 /*******************************************/
@@ -1340,7 +1169,8 @@ header .navbar.sticky-header{
 	background: none;
 	display: inline-block;
     border: 1px solid #ff5d56;
-    color: #ff5d56;
+    color: #fff;
+    /* color: #ff5d56; */
     padding: 12px 30px;
 	cursor: pointer;
 	margin-top: 20px;
@@ -1357,7 +1187,7 @@ header .navbar.sticky-header{
 /*****************************************/
 
 .contact-information{
-	background: linear-gradient(#111111 50%,#151515 50%);
+	background: linear-gradient(#20283E 50%,#20283E 50%);
 }
 
 .contact-info-single{
@@ -1435,7 +1265,8 @@ header .navbar.sticky-header{
 
 .main-footer{
 	padding: 100px 0;
-	background: #151515;
+	background: #20283E;
+	
 }
 
 .footer-logo{
@@ -1443,8 +1274,8 @@ header .navbar.sticky-header{
 }
 
 .footer-logo h1{
-	font-family: 'Berkshire Swash', cursive;
-    font-weight: normal;
+	font-family: 'Roboto', cursive;
+    font-weight: 900;
     transition: all 0.3s;
     color: #fff;
 }
@@ -1474,9 +1305,9 @@ header .navbar.sticky-header{
 	width: 60px;
 	height: 60px;
 	font-size: 22px;
-	background: #222;
+	background: #707070;
 	line-height: 60px;
-	color: #707070;
+	color: #fff;
 	border-radius: 50%;
 	border: 1px solid #333;
 	margin: 0 6px;
