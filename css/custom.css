@@ -5,7 +5,7 @@
 body{
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
-	background: #111111c5;
+	background: #f5f5f5;
 	color: #707070;
 }
 
@@ -156,10 +156,6 @@ a:focus{
 /*****    Navigation area css   *****/
 /************************************/
 
-header.header{
-	
-}
-
 header .navbar{
 	padding: 0;
 	/* background: rgba(0, 0, 0, 0.4); */
@@ -194,7 +190,7 @@ header .navbar-collapse.collapse{
 	padding: 4px 10px;
 	font-size: 14px;
 	font-weight: 400;
-	color: #fff;
+	color: black;
 	border-radius: 4px;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
@@ -222,7 +218,7 @@ header .navbar.sticky-header{
 	left: 0;
 	right: 0;
 	/* background: rgba(0,0,0,0.9); */
-	background-color: #16bdef;
+	background-color: #d1d1d5;
 }
 
 .sticky-header .navbar-nav .nav-item{
@@ -291,7 +287,7 @@ header .navbar.sticky-header{
 .banner-content h2{
 	font-size: 22px;
 	font-weight: 300;
-	color: #fff;
+	color: black;
 	line-height: 2.3em;
 	margin-bottom: 1.5em;
 	letter-spacing: 0.04em;
@@ -317,10 +313,10 @@ header .navbar.sticky-header{
 
 .btn-download{
 	display: inline-block;
-	border: 2px solid #fff;
+	border: 2px solid black;
 	padding: 14px 30px;
 	border-radius: 4px;
-	color: #fff;
+	color: black;
 	transition: all 0.3s;
 }
 
@@ -391,7 +387,7 @@ header .navbar.sticky-header{
 }
 
 .about-content h3{
-	color: #fff;
+	color: #222;
 	font-weight: 400;
 	font-size: 26px;
 	position: relative;
@@ -454,13 +450,13 @@ header .navbar.sticky-header{
 
 .services{
 	padding: 100px 0 70px;
-	background: #707070;
+	/* background: #707070; */
 	/* background: #151515; */
 	position: relative;
 }
 
 .service-single{
-	background: #222;
+	background:#e0e0e0 ;
 	padding: 40px 30px;
 	text-align: center;
 	border: 1px solid #333;
@@ -511,7 +507,7 @@ header .navbar.sticky-header{
 .service-single h3{
 	font-size: 20px;
 	font-weight: 400;
-	color: #fff;
+	color: black;
 	margin-bottom: 16px;
 }
 
@@ -544,7 +540,7 @@ header .navbar.sticky-header{
 }
 
 .experience-single{
-	background: #222;
+	background: #e0e0e0;
 	padding: 40px 30px;
 	margin-top: 30px;
 	position: relative;
@@ -555,7 +551,7 @@ header .navbar.sticky-header{
 	display: block;
 	width: 0;
 	height: 0;
-	border-bottom: 30px solid #222;
+	border-bottom: 30px solid #e0e0e0;
 	border-right: 30px solid transparent;
 	position: absolute;
 	top: -30px;
@@ -568,7 +564,7 @@ header .navbar.sticky-header{
 }
 
 .experience-single h4{
-	color: #fff;
+	color: black;
 	font-weight: 400;
 	font-size: 20px;
 	margin-bottom: 20px;
@@ -606,7 +602,7 @@ header .navbar.sticky-header{
 
 .skill-single h5{
 	font-size: 18px;
-	color: #fff;
+	color: black;
 	font-weight: 400;
 	margin-bottom: 4px;
 	letter-spacing: 0.04em;
@@ -618,8 +614,8 @@ header .navbar.sticky-header{
 }
 
 .counter-single{
-	background: #222;
-	border: 1px solid #333;
+	background: #e0e0e0;
+	/* border: 1px solid #333; */
 	margin-bottom: 30px;
 	position: relative;
 	height: 82px;
@@ -657,7 +653,7 @@ header .navbar.sticky-header{
 /***************************************/
 
 .portfolio{
-	background: #707070;
+	background: #e0e0e0;
 	padding: 100px 0;
 }
 
@@ -678,7 +674,7 @@ header .navbar.sticky-header{
 
 .portfolio-nav ul li a{
 	display: block;
-	background: #222;
+	background: #d1d1d5;
 	color: #707070;
 	padding: 6px 20px;
 	border: 1px solid #333;
@@ -776,7 +772,7 @@ header .navbar.sticky-header{
 .btn-view-project{
 	display: inline-block;
 	font-size: 16px;
-	background: #333;
+	background: #e0e0e0;
 	border: 1px solid #444;
 	padding: 6px 20px;
 	color: #707070;
@@ -801,8 +797,8 @@ header .navbar.sticky-header{
 .load-more-portfolio a{
 	display: inline-block;
 	font-size: 18px;
-	background: #222;
-	color: #707070;
+	background: #e0e0e0;
+	color: black;
 	padding: 18px 40px;
 	border: 1px solid #333;
 	transition: all 0.3s;
@@ -825,8 +821,8 @@ header .navbar.sticky-header{
 
 .pricing-single{
 	text-align: center;
-	background: #222;
-	border: 1px solid #333;
+	background: #e0e0e0;
+	border: 1px solid #335;
 	position: relative;
 }
 
@@ -860,7 +856,7 @@ header .navbar.sticky-header{
 
 .pricing-header{
 	padding: 30px 20px 10px;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #d1d1d5;
 	position: relative;
 	overflow: hidden;
 }
@@ -873,7 +869,7 @@ header .navbar.sticky-header{
 }
 
 .pricing-header h3{
-	color: #fff;
+	color: black;
 	font-size: 22px;
 	font-weight: 400;
 	margin: 0;
@@ -883,7 +879,7 @@ header .navbar.sticky-header{
 	margin: 0;
 	font-size: 40px;
 	font-weight: 700;
-	color: #fff;
+	color: black;
 }
 
 .pricing-header p span{
@@ -904,7 +900,7 @@ header .navbar.sticky-header{
 
 .pricing-body ul li{
 	padding: 10px 0;
-	border-bottom: 1px solid #282828;
+	border-bottom: 1px solid #d1d1d5;
 }
 
 .pricing-body ul li:last-child{
@@ -947,202 +943,6 @@ header .navbar.sticky-header{
     transform: rotate(-45deg);
 }
 
-/*******************************************/
-/*****      Newsletter Section css      ****/
-/*******************************************/
-
-.newsletter{
-	background: #151515;
-	padding: 80px 0;
-}
-
-.newsletter-content{
-	text-align: center;
-	margin-bottom: 40px;
-}
-
-.newsletter-content h3{
-    font-family: 'Berkshire Swash', cursive;
-	font-weight: normal;
-	color: #ff5d56;	
-}
-
-.newsletter-content p{
-	font-size: 18px;	
-}
-
-.newsletter-form{
-	text-align: center;
-}
-
-.newsletter-form .form-inline{
-	max-width: 568px;
-	background: #222;
-	padding: 10px;
-	margin: 0 auto;
-	border-radius: 50px;
-	border: 1px solid #333;
-}
-
-.newsletter-form .form-group{
-	width: 100%;
-}
-
-.newsletter-form .form-control{
-	width: 80%;
-	background: none;
-	border: none;
-	font-family: inherit;
-	font-size: 20px;
-	height: 60px;
-	padding: 0 30px;
-	box-shadow: none;
-	outline: 0;
-	color: #707070;
-}
-
-.newsletter-form .btn-subscribe{
-	width: 20%;
-	background: none;
-	border: none;
-	color: #ff5d56;
-	font-size: 40px;
-	text-align: right;
-	padding: 0 30px;
-	cursor: pointer;
-}
-
-.newsletter-form .btn-subscribe:hover,
-.newsletter-form .btn-subscribe:focus{
-	box-shadow: none;
-	outline: 0;
-}
-
-/*******************************************/
-/*****      Latest Blog Section css     ****/
-/*******************************************/
-
-.latest-blog{
-	padding: 100px 0;
-}
-
-.blog-single{
-	background: #222;
-	border: 1px solid #333;
-}
-
-.blog-header{
-	position: relative;
-}
-
-.blog-header-overlay{
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: rgba(0,0,0,0.5);
-	text-align: center;
-	transform: scale(0.8);
-	opacity: 0;
-	transition: all 0.6s;
-}
-
-.blog-single:hover .blog-header-overlay{
-	opacity: 1;
-	transform: scale(1);
-}
-
-.blog-header-overlay a{
-	display: block;
-	width: 50px;
-	height: 50px;
-	background: #ff5d56;
-	border: 1px solid #ff5d56;
-	font-size: 20px;
-	color: #fff;
-	line-height: 50px;
-	border-radius: 50%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -25px;
-	margin-left: -25px;
-	transition: all 0.5s;
-}
-
-.blog-header-overlay a:hover{
-	background: none;
-	color: #ff5d56;
-}
-
-.blog-header figure{
-	margin: 0;
-}
-
-.blog-header figure img{
-	filter: grayscale(100%);
-}
-
-.blog-single .blog-body{
-	padding: 30px 20px;
-}
-
-.blog-single .blog-body h2{
-	font-size: 20px;
-	color: #fff;
-	font-weight: 400;
-	margin-bottom: 14px;
-}
-
-.blog-single .blog-body p{
-	margin: 0;
-	line-height: 1.6em;
-}
-
-.blog-footer{
-	padding: 20px;
-	border-top: 1px solid #333;
-}
-
-.blog-footer ul{
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
-.blog-footer ul li{
-	display: inline-block;
-	margin-right: 10px;
-}
-
-.blog-footer ul li i{
-	color: #ff5d56;
-	margin-right: 6px;
-}
-
-/************************************/
-/*****      Brand Slider css     ****/
-/************************************/
-
-.brand-sponser{
-	padding: 60px 0;
-	background: #151515;
-}
-
-.brand-slide{
-	text-align: center;
-}
-
-.brand-slide img{
-	opacity: 0.4;
-	transition: all 0.4s;
-}
-
-.brand-slide:hover img{
-	opacity: 1;
-}
-
 /************************************/
 /*****       Contact us css      ****/
 /************************************/
@@ -1152,7 +952,7 @@ header .navbar.sticky-header{
 }
 
 .contact-form .form-control{
-	background: #222;
+	background: #e0e0e0;
 	border: none;
 	border-radius: 0;
 	height: auto;
@@ -1162,15 +962,14 @@ header .navbar.sticky-header{
 	resize: none;
 	outline: 0;
 	box-shadow: none;
-	color: #fff;
+	color: black;
 }
 
 .btn-contact{
 	background: none;
 	display: inline-block;
     border: 1px solid #ff5d56;
-    color: #fff;
-    /* color: #ff5d56; */
+    color: black;
     padding: 12px 30px;
 	cursor: pointer;
 	margin-top: 20px;
@@ -1191,10 +990,10 @@ header .navbar.sticky-header{
 }
 
 .contact-info-single{
-	background: #222;
+	background: #e0e0e0;
 	padding: 20px;
 	text-align: center;
-	border: 1px solid #333;
+	border: 1px solid #d1d1d5;
 	position: relative;
 }
 
@@ -1234,7 +1033,7 @@ header .navbar.sticky-header{
 .contact-info-single h3{
 	font-size: 20px;
 	font-weight: 400;
-	color: #fff;
+	color: black;
 	padding-bottom: 15px;
 	margin-bottom: 10px;
 	position: relative;
