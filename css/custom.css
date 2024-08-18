@@ -1550,20 +1550,9 @@ header .navbar.sticky-header{
 	.pricing-body{
 		padding: 30px 20px;
 	}
-	
-	.testimonial-header h3{
+	.navbar-brand h1{
 		font-size: 20px;
 	}
 	
-	.testimonial-header h4{
-		font-size: 16px;
-	}
-	
-	.testimonial-single p{
-		font-size: 16px;
-	}
-	
-	.testimonial-pagination{
-		margin-top: 0;
-	}
+
 }
